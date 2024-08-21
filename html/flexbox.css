@@ -1,0 +1,35 @@
+h1{
+    padding: 10px;
+    text-align: center;
+    background-color:black;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+body{
+    margin: 0;
+}
+.blog-listing-section{
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+.blog-listing-section section{
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px ;
+    border-radius: 4px;
+    
+}
+.blog-listing-section section header{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.blog-listing-section article{
+    font-size: 15px;
+    line-height: 20px;
+    
+}

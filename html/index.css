@@ -1,0 +1,53 @@
+body{
+   margin: 20px;
+   display: block;
+   background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,190,1) 35%, rgba(0,212,255,1) 100%);
+   
+   }
+h1{
+   text-align: center;
+}
+form{
+   margin: auto;
+   text-align: center;
+}
+label{
+   font-size: 20px;
+   color: black;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   
+}
+label h5{
+   margin: 10px 0px;
+}
+input{
+   border: 1px solid black;
+   border-radius: 6px;
+   padding: 10px;
+   margin-bottom: 10px;
+   width: 300px;
+}
+input::placeholder{
+   font-size: 13px;
+}
+input :focus,
+input :focus-visible{
+   border: 2px solid red;
+   outline: red;
+}
+input :hover{
+   box-shadow: 3px 4px 5px 0px red;
+}
+button{
+   padding: 10px;
+   color: white;
+   background-color: green;
+   transition: ease-in-out;
+}
+button:hover{
+   cursor: pointer;
+   transform:translateY(-4px);
+}
+
